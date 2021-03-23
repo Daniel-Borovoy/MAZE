@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
-import Card from 'react-bootstrap/Card';
+import React, { Component } from 'react'
+import Card from 'react-bootstrap/Card'
 import Img from '../assets/1.jpg'
+import { Button } from 'react-bootstrap'
 export default class Cardoh extends Component {
     render() {
         return (
@@ -13,6 +14,9 @@ export default class Cardoh extends Component {
                             Some quick example text to build on the card title and make up the bulk of
                             the card's content.
                         </Card.Text>
+                        <Button variant="outline-info">
+                                Click
+                        </Button>
                 </Card.Body>
             </Card>
         </>
