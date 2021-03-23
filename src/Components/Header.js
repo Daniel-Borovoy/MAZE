@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Container, FormControl, Navbar, Form, Button, Nav } from 'react-bootstrap';
 import { BrowserRouter as Router, Switch, Route , Link } from 'react-router-dom';
-import logo from './logo192.png';
 import Home from '../Pages/Home';
 import About from '../Pages/About';
 import Contacts from '../Pages/Contacts';
@@ -10,16 +9,10 @@ export default class Header extends Component {
     render() {
         return (
         <>
-                <Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
+                <Navbar collapseOnSelect expand="md" bg="light" variant="light">
                     <Container>
                         <Navbar.Brand href="/">
-                            <img
-                                src={logo}
-                                height ="30"
-                                width="30"
-                                className="d-inline-block align-top"
-                                alt="logo"
-                            /> React site
+                             Maze
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                         <Navbar.Collapse id="responsive-navbar-nav">
@@ -35,7 +28,7 @@ export default class Header extends Component {
                                     placeholder="Search"
                                     className="mr-sm-2"
                                 />
-                                <Button variant="outline-info">
+                                <Button variant="dark">
                                     Search
                                 </Button>
                             </Form>
