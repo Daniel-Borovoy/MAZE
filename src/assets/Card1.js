@@ -8,7 +8,7 @@ export default class Card1 extends Component {
             <Container>
                 <CardColumns>
                     <Card>
-                        <Card.Img variant="top" src="https://images.pexels.com/photos/6062177/pexels-photo-6062177.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"/>
+                        <Card.Img variant="top" src="https://images.pexels.com/photos/6062177/pexels-photo-6062177.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
                         <Card.Body>
                         <Card.Title>Card title that wraps to a new line</Card.Title>
                         <Card.Text>
