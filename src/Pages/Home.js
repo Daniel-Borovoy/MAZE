@@ -1,7 +1,7 @@
-import { Carousel } from 'bootstrap'
 import React, { Component } from 'react'
 import { Container, Row, Jumbotron } from 'react-bootstrap'
 import FooterPage from '../assets/FooterPage'
+import Card1 from '../assets/Card1'
 import Img from '../assets/1.jpg'
 export default class Home extends Component {
     render() {
@@ -25,6 +25,7 @@ export default class Home extends Component {
                     </p>
                 </Container>
             </Jumbotron>
+            <Card1/>
             <FooterPage/>
         </>
         )
