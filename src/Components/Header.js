@@ -9,7 +9,7 @@ export default class Header extends Component {
     render() {
         return (
         <>
-                <Navbar collapseOnSelect expand="md" bg="light" variant="light">
+                <Navbar sticky="top" collapseOnSelect expand="md" bg="light" variant="light">
                     <Container>
                         <Navbar.Brand href="/">
                              Maze
