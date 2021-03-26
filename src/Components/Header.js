@@ -12,7 +12,7 @@ export default class Header extends Component {
                 <Navbar sticky="top" collapseOnSelect expand="md" bg="light" variant="light">
                     <Container>
                         <Navbar.Brand href="/">
-                             Maze
+                             MAZE
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                         <Navbar.Collapse id="responsive-navbar-nav">

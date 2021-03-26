@@ -6,7 +6,7 @@ const JumbotronPage = () => {
     <MDBContainer>
       <MDBRow>
         <MDBCol>
-          <MDBJumbotron style={{ padding: 0 }}>
+          <MDBJumbotron style={{ padding: 0 }} className="shadow-box-example hoverable">
             <MDBCol className="text-white text-center py-5 px-4 my-5" style={{ backgroundImage: `url(https://images.pexels.com/photos/1210484/pexels-photo-1210484.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)` }}>
               <MDBCol className="py-5">
                 <MDBCardTitle className="h1-responsive pt-3 m-5 font-bold">Create your beautiful website with MDBootstrap</MDBCardTitle>

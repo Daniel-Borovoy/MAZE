@@ -7,7 +7,7 @@ export default class Card1 extends Component {
             <>
             <Container>
                 <CardColumns>
-                    <Card>
+                    <Card className="shadow-box-example hoverable">
                         <Card.Img variant="top" src="https://images.pexels.com/photos/6062177/pexels-photo-6062177.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
                         <Card.Body>
                         <Card.Title>Card title that wraps to a new line</Card.Title>
@@ -17,7 +17,7 @@ export default class Card1 extends Component {
                         </Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card>
+                    <Card className="shadow-box-example hoverable">
                         <Card.Img variant="top" src="https://images.pexels.com/photos/4061512/pexels-photo-4061512.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"/>
                         <Card.Body>
                         <Card.Title>Card title that wraps to a new line</Card.Title>
@@ -27,7 +27,7 @@ export default class Card1 extends Component {
                         </Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card>
+                    <Card className="shadow-box-example hoverable">
                         <Card.Img variant="top" src="https://images.pexels.com/photos/2364593/pexels-photo-2364593.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"/>
                         <Card.Body>
                         <Card.Title>Card title that wraps to a new line</Card.Title>
@@ -37,7 +37,7 @@ export default class Card1 extends Component {
                         </Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card>
+                    <Card className="shadow-box-example hoverable">
                         <Card.Img variant="top" src="https://images.pexels.com/photos/5432147/pexels-photo-5432147.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"/>
                         <Card.Body>
                         <Card.Title>Card title that wraps to a new line</Card.Title>
@@ -47,7 +47,7 @@ export default class Card1 extends Component {
                         </Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card>
+                    <Card className="shadow-box-example hoverable">
                         <Card.Img variant="top" src="https://images.pexels.com/photos/2537658/pexels-photo-2537658.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"/>
                         <Card.Body>
                         <Card.Title>Card title that wraps to a new line</Card.Title>
@@ -57,7 +57,7 @@ export default class Card1 extends Component {
                         </Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card>
+                    <Card className="shadow-box-example hoverable">
                         <Card.Img variant="top" src="https://images.pexels.com/photos/2530554/pexels-photo-2530554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"/>
                         <Card.Body>
                         <Card.Title>Card title that wraps to a new line</Card.Title>
