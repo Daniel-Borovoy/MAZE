@@ -15,7 +15,7 @@ export default class Home extends Component {
                 src={Img}
                 width= "30%"
                 />
-                <h1 className="col-6 m-auto">Just improve yourself</h1>    
+                <h1 className="col-6 m-auto ">Just improve yourself</h1>    
                 </Row>
             </Container>  
             <Jumbotron fluid>
