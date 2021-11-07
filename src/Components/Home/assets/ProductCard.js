@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Card, CardColumns, Container } from 'react-bootstrap'
 
-export default class Card1 extends Component {
+export class ProductCard extends Component {
   render() {
     return (
       <>

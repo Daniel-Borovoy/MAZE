@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Container, Row, Jumbotron } from 'react-bootstrap'
 import FooterPage from './assets/FooterPage'
-import Card1 from './assets/Card1'
+import { ProductCard } from './assets/ProductCard'
 import JumbotronPage from './assets/JumbotronPage'
 import Img from '../../assets/1.png'
 
@@ -29,7 +29,7 @@ export default class Home extends Component {
             </p>
           </Container>
         </Jumbotron>
-        <Card1 />
+        <ProductCard />
         <Container fluid>
           <JumbotronPage />
         </Container>
