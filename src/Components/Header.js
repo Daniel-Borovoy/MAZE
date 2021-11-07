@@ -1,51 +1,72 @@
-import React, { Component } from 'react';
-import { Container, FormControl, Navbar, Form, Button, Nav } from 'react-bootstrap';
-import { BrowserRouter as Router, Switch, Route , Link } from 'react-router-dom';
-import Home from '../Pages/Home';
-import About from '../Pages/About';
-import Contacts from '../Pages/Contacts';
-import Blog from '../Pages/Blog';
+import React, { Component } from 'react'
+import {
+  Container,
+  FormControl,
+  Navbar,
+  Form,
+  Button,
+  Nav,
+} from 'react-bootstrap'
+import { NavLink } from 'react-router-dom'
+
+const styles = {
+  textDecoration: 'none',
+  color: '#000',
+}
+
 export default class Header extends Component {
-    render() {
-        return (
-        <>
-                <Navbar sticky="top" collapseOnSelect expand="md" bg="light" variant="light">
-                    <Container>
-                        <Navbar.Brand href="/">
-                             MAZE
-                        </Navbar.Brand>
-                        <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
-                        <Navbar.Collapse id="responsive-navbar-nav">
-                            <Nav className="mr-auto">
-                                <Nav.Link href="/">Home</Nav.Link>
-                                <Nav.Link href="/about">About us</Nav.Link>
-                                <Nav.Link href="/contacts">Contacts</Nav.Link>
-                                <Nav.Link href="/blog">Blog</Nav.Link>
-                            </Nav>
-                            <Form inline>
-                                <FormControl
-                                    type="text"
-                                    placeholder="Search"
-                                    className="mr-sm-2"
-                                />
-                                <Button variant="dark">
-                                    Search
-                                </Button>
-                            </Form>
-                        </Navbar.Collapse>
-                    </Container>
-                </Navbar>
-
-
-                <Router>
-                    <Switch>
-                        <Route exact path="/" component={Home}/>
-                        <Route exact path="/about" component={About}/>
-                        <Route exact path="/contacts" component={Contacts}/>
-                        <Route exact path="/blog" component={Blog}/>
-                    </Switch>
-                </Router>
-        </>
-        )
-    }
+  render() {
+    return (
+      <>
+        <Navbar
+          sticky="top"
+          collapseOnSelect
+          expand="md"
+          bg="light"
+          variant="light"
+        >
+          <Container>
+            <Navbar.Brand>
+              <NavLink style={styles} to="/">
+                MAZE
+              </NavLink>
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+              <Nav className="mr-auto">
+                <Nav.Link>
+                  <NavLink style={styles} to="/">
+                    Home
+                  </NavLink>
+                </Nav.Link>
+                <Nav.Link>
+                  <NavLink style={styles} to="/about">
+                    About us
+                  </NavLink>
+                </Nav.Link>
+                <Nav.Link>
+                  <NavLink style={styles} to="/contacts">
+                    Contacts
+                  </NavLink>
+                </Nav.Link>
+                <Nav.Link>
+                  <NavLink style={styles} to="/blog">
+                    Blog
+                  </NavLink>
+                </Nav.Link>
+              </Nav>
+              <Form inline>
+                <FormControl
+                  type="text"
+                  placeholder="Search"
+                  className="mr-sm-2"
+                />
+                <Button variant="dark">Search</Button>
+              </Form>
+            </Navbar.Collapse>
+          </Container>
+        </Navbar>
+      </>
+    )
+  }
 }
