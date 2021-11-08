@@ -3,9 +3,9 @@ import { Container, Row, Jumbotron } from 'react-bootstrap'
 import FooterPage from './assets/FooterPage'
 import { ProductCard } from './assets/ProductCard'
 import JumbotronPage from './assets/JumbotronPage'
-import Img from '../../assets/1.png'
+import Img from '../../img/1.png'
 
-export default class Home extends Component {
+export class Home extends Component {
   render() {
     return (
       <>

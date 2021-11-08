@@ -5,7 +5,7 @@ const styles = {
   textAlign: 'center',
 }
 
-export default class Blog extends Component {
+export class Blog extends Component {
   render() {
     return <div style={styles}>Blog</div>
   }

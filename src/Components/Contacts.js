@@ -5,7 +5,7 @@ const styles = {
   textAlign: 'center',
 }
 
-export default class Contacts extends Component {
+export class Contacts extends Component {
   render() {
     return <div style={styles}>Contacts</div>
   }

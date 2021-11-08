@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import Card from 'react-bootstrap/Card'
-import Img from '../assets/1.png'
+import Img from '../img/1.png'
 import { Button } from 'react-bootstrap'
+
 export class CardTemplate extends Component {
   render() {
     return (

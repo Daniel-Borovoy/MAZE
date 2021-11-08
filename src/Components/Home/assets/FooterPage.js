@@ -18,22 +18,22 @@ class FooterPage extends Component {
               <h5 className="title">Links</h5>
               <ul>
                 <li className="list-unstyled">
-                  <a href="#!">
+                  <a href="/">
                     <MDBIcon fab icon="vk" /> VK
                   </a>
                 </li>
                 <li className="list-unstyled">
-                  <a href="#!">
+                  <a href="/">
                     <MDBIcon fab icon="telegram-plane" /> Telegram
                   </a>
                 </li>
                 <li className="list-unstyled">
-                  <a href="#!">
+                  <a href="/">
                     <MDBIcon fab icon="instagram" /> Instagram
                   </a>
                 </li>
                 <li className="list-unstyled">
-                  <a href="#!">
+                  <a href="/">
                     <MDBIcon fab icon="facebook-f" /> FaceBook
                   </a>
                 </li>

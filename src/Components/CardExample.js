@@ -9,7 +9,7 @@ import {
   MDBCol,
 } from 'mdbreact'
 
-export default class CardExample extends Component {
+export class CardExample extends Component {
   render() {
     return (
       <MDBRow className="row-cols-1 row-cols-md-3 g-4">

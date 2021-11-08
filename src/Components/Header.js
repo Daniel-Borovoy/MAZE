@@ -12,9 +12,10 @@ import { NavLink } from 'react-router-dom'
 const styles = {
   textDecoration: 'none',
   color: '#000',
+  margin: '0 5px',
 }
 
-export default class Header extends Component {
+export class Header extends Component {
   render() {
     return (
       <>
@@ -34,26 +35,18 @@ export default class Header extends Component {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="mr-auto">
-                <Nav.Link>
-                  <NavLink style={styles} to="/">
-                    Home
-                  </NavLink>
-                </Nav.Link>
-                <Nav.Link>
-                  <NavLink style={styles} to="/about">
-                    About us
-                  </NavLink>
-                </Nav.Link>
-                <Nav.Link>
-                  <NavLink style={styles} to="/contacts">
-                    Contacts
-                  </NavLink>
-                </Nav.Link>
-                <Nav.Link>
-                  <NavLink style={styles} to="/blog">
-                    Blog
-                  </NavLink>
-                </Nav.Link>
+                <NavLink style={styles} to="/">
+                  Home
+                </NavLink>
+                <NavLink style={styles} to="/about">
+                  About us
+                </NavLink>
+                <NavLink style={styles} to="/contacts">
+                  Contacts
+                </NavLink>
+                <NavLink style={styles} to="/blog">
+                  Blog
+                </NavLink>
               </Nav>
               <Form inline>
                 <FormControl

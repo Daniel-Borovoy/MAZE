@@ -7,7 +7,7 @@ const styles = {
   justifyContent: 'center',
 }
 
-export default class About extends Component {
+export class About extends Component {
   render() {
     return (
       <div style={styles}>
